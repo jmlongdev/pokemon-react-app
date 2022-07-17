@@ -1,6 +1,7 @@
 .App {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   text-align: center;
   font-family: arial;
   font-size: 25px;
