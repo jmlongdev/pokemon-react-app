@@ -1,9 +1,11 @@
 import "./App.css";
 import { useState } from "react";
+import PokemonSearchForm from "./Components/PokemonSearchForm";
+
 function App() {
   return (
     <div className="App">
-      <h1>Pokemon Stats</h1>
+      <PokemonSearchForm />
     </div>
   );
 }
